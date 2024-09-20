@@ -19,8 +19,8 @@ function App() {
       <h1>Vite + React</h1>
       <h1>1. INI DEVELOPMENT BRANCH</h1>
       <h2>Test added new text in development branch</h2>
-
       <h3>Ini punya Ferdi</h3>
+      <h3>ini punya Zalva</h3>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
