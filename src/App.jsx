@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import PokecardComponent from "./pokecardComponent";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <h1>1. INI DEVELOPMENT BRANCH</h1>
       <h2>Test added new text in development branch</h2>
       <h3>ini punya Zalva</h3>
+      <PokecardComponent />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
